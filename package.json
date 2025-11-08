@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/tordetect",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Tor Detect is an API that checks whether a given IP address belongs to a known Tor exit node. Useful for security, access control, and analytics.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/tordetect-API.git"
   },
   "keywords": [
-    "tor detect","tor detection","tor exit node check","tor ip","tor network"
+    "tor detect", "tor detection", "tor exit node check", "tor ip", "tor network"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/tordetect-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/tordetect?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/tordetect?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.8.4"
+    "axios": "1.13.2"
   }
 }
